@@ -1,0 +1,16 @@
+ 1018  egrep "\w*dred\w*" goodluck.txt
+ 1019  egrep "\wdred\w" goodluck.txt
+ 1020  egrep \wdred\w goodluck.txt
+ 1021  egrep -o dred goodluck.txt
+ 1022  egrep -o '\w*dred\w*' goodluck.txt
+ 1023  egrep '\w*dred\w*' goodluck.txt
+ 1024  grep Good luck, babe goodluck.txt
+ 1025  grep "Good luck, babe" goodluck.txt
+ 1026  grep -x "Good luck, babe" goodluck.txt
+ 1027  grep "Good luck, babe" goodluck.txt
+ 1028  wc "Good luck, babe" goodluck.txt
+ 1029  wc goodluck.txt
+ 1030  wc -l goodluck.txt
+ 1031  grep "Good luck, babe" goodluck.txt | wc -lw
+ 1032  grep "Good luck, babe" goodluck.txt | wc -lw > KimJ_a2_counts.txt
+ 1033  vi KimJ_a2_counts.txt

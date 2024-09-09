@@ -1,0 +1,3 @@
+       6      78
+The first number 6 represents the number of lines in goodluck.txt that contains the phrase of "Good luck, babe ".
+The second number 78 represents the total word count in those six lines that contains the phrase of "Good luck, babe " in the goodluck.txt file. 
