@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#nested if (using if statement within another if statement)
+temp=$1
+
+if [ "$temp" -le 55 ]; then
+	echo "freezing"
+else
+	if [ "$temp" -lt 67 ]; then
+		echo "cold"
+	else
+		if [ "$temp" -lt 85 ]; then
+			echo "nice"
+		else 
+			echo "hot"
+		fi		
+	fi
+fi 
