@@ -1,0 +1,16 @@
+ 1002  cd CS131
+ 1003  cd KimJ_A6
+ 1004  ls
+ 1005  vi airline_inquiry.txt
+ 1006  awk -F, '{print $4}' airline_stats.csv
+ 1007  vi airline_inquiry.txt
+ 1008  awk -F',' '$1 > 10 { print $4}' airline_stats.csv
+ 1009  awk -F',' '$1 > 10 { print $4}' airline_stats.csv | sort
+ 1010  vi airline_inquiry.txt
+ 1011  awk -v Threshold=15 -F',' '{ if ($1 > Threshold) print $4 }' airline_stats.csv
+ 1012  vi airline_inquiry.txt
+ 1013  awk -F, '{print $4}' airline_stats.csv >> airline_inquiry.txt
+ 1014  vi airline_inquiry.txt
+ 1015  awk -F',' '$1 > 10 { print $4}' airline_stats.csv | sort >> airline_inquiry.txt
+ 1016  vi airline_inquiry.txt
+ 1017  awk -v Threshold=15 -F',' '{ if ($1 > Threshold) print $4 }' airline_stats.csv >> airline_inquiry.txt
