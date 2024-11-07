@@ -1,0 +1,8 @@
+#1. Set up a daily file clean up using Cron
+0 2 * * * rm -rf /Users/jisoo.kim/Desktop/CS131/mini-assignments-Kimjisoo1710/A9_cron/temp/*
+
+#2. Schedule a weekly system backup with cron 
+0 3 * * 0 /Users/jisoo.kim/Desktop/CS131/mini-assignments-Kimjisoo1710/A9_cron/backup.sh  
+
+#3 Write command line for sending a Disk Usage Report using Cron
+30 8 * * * df -h | mail -s "Disk Usage Report" jisoo.kim1710@gmail.com

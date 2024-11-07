@@ -1,0 +1,7 @@
+1. What other types of tasks (provide 2) could benefit from automation using cron or at?
+From automation using cron or at, it could be beneficial for system updates and patches, and scheduling database backups. 
+Automating the process of checking for and installing system updates or security patches can be scheduled using cron, which is very beneficial.
+
+2. What potential risks are there with poorly managed automated tasks, and how can you avoid them (e.g., ensuring backups work correctly)?
+Potential risks that exists with poorly managed automated tasks include data loss or corruption, and system overload. To avoid these risks, one can implement checks that makes sure the system is running correctly and to check for any error messages. Additionally, regularly verifying backup integrity by restoring files from backups periodically can help prevent the data loss. 
+
