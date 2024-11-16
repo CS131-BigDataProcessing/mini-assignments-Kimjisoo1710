@@ -1,4 +1,4 @@
 #!/bin/bash
 
-python3 unit_tests.py
+python3 unitTest_math_functions.py
 
