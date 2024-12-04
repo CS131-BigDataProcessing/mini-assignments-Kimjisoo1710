@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: crime_test
+Version: 1.0.0
+Summary: A package for validating and cleaning crime data
+Home-page: https://github.com/CS131-BigDataProcessing/mini-assignments-Kimjisoo1710
+Author: Ji Soo Kim
+Author-email: jisoo.kim01@sjsu.edu
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+#Crime Test
+This package includes a function for validating columns in the Crime dataset (validate_functions.py) and a function for calculating the mean and median of the age column (stats_function.py).
+
+#Installation
+In order to install this package, use pip:
+pip install crime test
+
+
