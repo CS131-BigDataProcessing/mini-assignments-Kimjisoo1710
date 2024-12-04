@@ -12,7 +12,4 @@ In order to install this package, use pip:
 pip install crime test
 
 ```bash
-pip install 
-git+https://github.com/Kimjisoo1710/crime_test.git
-
-
+pip install git+https://github.com/CS131-BigDataProcessing/mini-assignments-Kimjisoo1710.git@main#subdirectory=KimJ_A12
